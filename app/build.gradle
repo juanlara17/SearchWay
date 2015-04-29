@@ -23,4 +23,8 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.1.1'
     compile 'com.google.android.gms:play-services:7.0.0'
+    compile files('libs/jetty-6.1.19.jar')
+    compile files('libs/polymap_2.10-1.0.jar')
+    compile files('libs/appszoomsdk.jar')
+    compile files('libs/PolymapLibraryFree.jar')
 }
